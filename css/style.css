@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=amatic');
+
+@media screen and (min-width: 334px) and (max-width: 766px) {
+    body {
+        font-family: 'amatic', sans-serif;
+        background-color: #FAFFC7FF;
+        color: #000;
+        padding: 30px;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+    }
+
+    #cat-list {
+        border-radius: 25px;
+        width: 290px;
+        height: 230px;
+        background-color: #FA9;
+        padding: 10px;
+    }
+
+    ul, li {
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding: inherit;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+} 
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    body {
+        font-family: 'amatic', sans-serif;
+        background-color: #FAFFC7FF;
+        color: #000;
+        padding: 30px;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+    }
+
+    #cat-list {
+        border-radius: 25px;
+        width: 290px;
+        height: 230px;
+        background-color: #FA9;
+        padding: 10px;
+        margin-left: 200px;
+    }
+
+    ul, li {
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding: inherit;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+} 
+
+
+@media screen and (min-width: 1024px) {
+    body {
+    font-family: 'amatic', sans-serif;
+    background-color: #FAFFC7FF;
+    color: #000;
+    padding: 30px;
+    margin: 10px 0px 0px 20px;
+    text-align: center;
+    }
+
+    #cat-name, #cat-count {
+        margin-left: 30px;
+    }
+
+    #cat-list {
+        border-radius: 25px;
+        width: 290px;
+        height: 230px;
+        background-color: #FA9;
+        padding: 10px;
+        position: absolute;
+        margin-top: 180px;
+    }
+
+    #cat-count {
+        padding-bottom: 12px;
+    }
+
+    img {
+        height: 50%;
+        width: 50%;
+        margin-left: 60px;
+    }
+
+    ul, li {
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding: inherit;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+  
